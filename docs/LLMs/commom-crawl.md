@@ -3,7 +3,7 @@
 <img width="1610" height="645" alt="Image" src="https://github.com/user-attachments/assets/be79daa2-4d3b-4d8e-9b93-e29f0f123a53" />
 
 ## O que é?
-- **[Common Crawl](https://commoncrawl.org/)** é um projeto **sem fins lucrativos** criado em 2008.  
+- **[Common Crawl](https://commoncrawl.org/)** é um projeto **sem fins lucrativos** criado em 2007.  
 - Ele coleta (*web crawling*) e disponibiliza de graça uma cópia gigantesca da **web pública**.  
 - Como se ele fosse um **“Google aberto para pesquisadores”**: vasculha bilhões de páginas e armazena tudo em um banco de dados aberto.
 
