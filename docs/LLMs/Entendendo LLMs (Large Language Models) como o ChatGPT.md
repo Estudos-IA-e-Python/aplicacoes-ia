@@ -96,3 +96,6 @@ Esse modelo trouxe o conceito de **atenção**, permitindo que o LLM entenda con
 ---
 
 > "Os LLMs não pensam como humanos. Eles reconhecem padrões da linguagem e, a partir disso, geram respostas com base em probabilidades."
+
+## 📂 Links Importantes
+- 📄 Versão original em inglês (NIPS 2017): [Attention Is All You Need (PDF)](https://arxiv.org/pdf/1706.03762.pdf)  
