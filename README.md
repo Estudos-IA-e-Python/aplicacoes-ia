@@ -1,6 +1,6 @@
 # Estudos sobre Inteligência Artificial, LLms e Python
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/614fad4c-02b0-4ad7-831c-122051a7c7a7" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/836ca9e9-215a-40df-9804-0a10ec70eccd" />
 
 A Inteligência Artificial (IA) é o campo da ciência da computação que busca criar sistemas capazes de simular o raciocínio e comportamento humano.
 
