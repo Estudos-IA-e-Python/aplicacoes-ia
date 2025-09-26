@@ -5,4 +5,5 @@ A Inteligência Artificial (IA) é o campo da ciência da computação que busca
 ### Tópicos que vou estudar
 - História da IA
 - Áreas principais: Machine Learning, Deep Learning, NLP, Visão Computacional
-- Ética e impactos sociais
+- Agentes de IA
+- Python
