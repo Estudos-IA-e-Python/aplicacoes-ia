@@ -14,7 +14,7 @@ Um **Agente de IA** é um sistema que:
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5b39d4fd-84fd-488b-bbe9-e62742046963" />
 
-Agente -> Combinação de algum modelo de linguagem
+Agente 👉 Combinação de algum modelo de linguagem (ChatGPT, Claude, Gemini) + Conjunto de Prompts pré definidos + Conjunto de ferramentas, que quando combinados criam uma nova IA especializada em resolver algum "problema" que faça sentido.
 
 
 #### Raciocínio
@@ -134,5 +134,6 @@ Hoje, você não precisa construir tudo do zero. Há frameworks que já implemen
 
 - [CrewAI Intro](https://docs.crewai.com/en/introduction)
     
+
 
 
