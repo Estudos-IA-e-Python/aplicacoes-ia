@@ -1,5 +1,7 @@
 # Tokenização
 
+<img width="1504" height="880" alt="Image" src="https://github.com/user-attachments/assets/5c4efaf1-a6f7-4992-82f0-454545928615" />
+
 ## 1. Conceito
 - **Tokenização** é o processo de dividir o texto em partes menores chamadas **tokens** (palavras, subpalavras, caracteres ou bytes).  
 - Esses tokens são então convertidos em **IDs numéricos**, que são o que os modelos realmente processam.  
