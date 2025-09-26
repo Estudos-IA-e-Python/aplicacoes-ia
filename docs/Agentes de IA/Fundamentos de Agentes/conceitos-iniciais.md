@@ -122,11 +122,12 @@ Hoje, você não precisa construir tudo do zero. Há frameworks que já implemen
 
 ### 📑 Artigos e Leituras
 
-- [# O que são agentes de IA? (IBM)](https://www.ibm.com/br-pt/think/topics/ai-agents)
+- [O que são agentes de IA? (IBM)](https://www.ibm.com/br-pt/think/topics/ai-agents)
 
-- [# LangChain Docs – Agents](https://python.langchain.com/api_reference/core/agents.html)    
+- [LangChain Docs – Agents](https://python.langchain.com/api_reference/core/agents.html)    
    
--   [Microsoft Research – AutoGen](https://www.microsoft.com/en-us/research/project/autogen/)
+- [Microsoft Research – AutoGen](https://www.microsoft.com/en-us/research/project/autogen/)
 
--   [CrewAI Intro](https://docs.crewai.com/en/introduction)
+- [CrewAI Intro](https://docs.crewai.com/en/introduction)
     
+
