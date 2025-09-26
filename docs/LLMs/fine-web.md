@@ -39,7 +39,9 @@
 ## 🎯 Resumindo
 - FineWeb = **Common Crawl “limpo”**.  
 - Produz dados melhores para treinar LLMs.  
-- Multilíngue, aberto e em larga escala.  
+- Multilíngue, aberto e em larga escala.
+
+  <img width="1189" height="604" alt="Image" src="https://github.com/user-attachments/assets/7fe67ee1-49c5-4944-8efb-20e5ec4800c3" />
 
 🔗 Leia mais: [FineWeb – Hugging Face](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1)
 
