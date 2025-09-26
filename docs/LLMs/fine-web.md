@@ -1,5 +1,8 @@
 # 📘 FineWeb 
 
+<img width="1616" height="779" alt="Image" src="https://github.com/user-attachments/assets/27baa873-ddab-490f-bf81-826d734f34b5" />
+
+
 
 ## O que é?
 - **[FineWeb](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1)** é um projeto da **Hugging Face**.  
@@ -28,7 +31,8 @@
 
 ## 🔑 Diferença para o Common Crawl
 - **Common Crawl:** enorme, bruto, contém de tudo (bom e ruim).  
-- **FineWeb:** refinado, filtrado e pronto para treinar **IA de última geração**.  
+- **FineWeb:** refinado, filtrado e pronto para treinar **IA de última geração**.
+-  **FineWeb** é uma versão mais limpa do **Common Crawl**
 
 ---
 
