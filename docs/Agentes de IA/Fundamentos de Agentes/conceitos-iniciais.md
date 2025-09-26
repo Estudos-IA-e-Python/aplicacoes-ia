@@ -12,6 +12,10 @@ Um **Agente de IA** é um sistema que:
 
 👉 É como um **software autônomo** que combina **IA + ferramentas externas + memória**, tomando decisões de forma mais independente, é capaz de agir de forma autônoma para alcançar seus objetivos e ser treinado para tarefas específicas.
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5b39d4fd-84fd-488b-bbe9-e62742046963" />
+
+Agente -> Combinação de algum modelo de linguagem
+
 
 #### Raciocínio
 -   É um termo mais **específico e técnico** dentro da IA. O **raciocínio** é o **tipo de processamento** que caracteriza um comportamento inteligente.
@@ -130,4 +134,5 @@ Hoje, você não precisa construir tudo do zero. Há frameworks que já implemen
 
 - [CrewAI Intro](https://docs.crewai.com/en/introduction)
     
+
 
