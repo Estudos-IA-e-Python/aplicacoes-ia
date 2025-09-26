@@ -1,4 +1,4 @@
-# 🛤️ Trilha de Aprendizado em **Agentes de IA**
+# 🛤️ Aprendizado em **Agentes de IA**
 
 ## 🔹 **1 – Fundamentos de Agentes**
 
