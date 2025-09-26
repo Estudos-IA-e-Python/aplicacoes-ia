@@ -1,6 +1,6 @@
 # 🛤️ Trilha de Aprendizado em **Agentes de IA**
 
-## 🔹 **Bloco 1 – Fundamentos de Agentes**
+## 🔹 **1 – Fundamentos de Agentes**
 
 1.  **Conceitos iniciais**
     
@@ -27,7 +27,7 @@
 
 ----------
 
-## 🔹 **Bloco 2 – Ferramentas e Frameworks**
+## 🔹 **2 – Ferramentas e Frameworks**
 
 -   **LangChain**: criação de pipelines de agentes.
     
@@ -44,7 +44,7 @@
 
 ----------
 
-## 🔹 **Bloco 3 – Casos aplicados a QA e Dev**
+## 🔹 **3 – Casos aplicados a QA e Dev**
 
 1.  **QA com agentes**
     
@@ -69,7 +69,7 @@
 
 ----------
 
-## 🔹 **Bloco 4 – Projetos Avançados**
+## 🔹 **4 – Projetos Avançados**
 
 1.  **Agente RAG (Retrieval-Augmented Generation)**:  
     Responde perguntas com base em sua documentação interna de QA.
