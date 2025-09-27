@@ -1,5 +1,7 @@
 # Transformers
 
+<img width="905" height="618" alt="Image" src="https://github.com/user-attachments/assets/b70bef5a-8842-4caa-8ca0-18f9fd61eaa3" />
+
 ## 1. O que são
 **Transformers** são uma arquitetura de redes neurais criada em 2017 pelo artigo **“Attention Is All You Need”**.  
 Eles revolucionaram o **Processamento de Linguagem Natural (NLP)** porque conseguem lidar com **dependências de longo alcance** em textos de forma eficiente, usando um mecanismo chamado **Atenção (Attention)**.
