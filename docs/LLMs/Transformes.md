@@ -72,33 +72,32 @@ Um Transformer é feito de **blocos repetidos**. Os principais componentes são:
              │
           Saída
 
-### Self-Attention (simplificado)
 
-  
+```
+## 6. Self-Attention (simplificado)
+
+```text
 
 Entrada: "O gato subiu no telhado porque estava assustado"
 
-  
-
 Cada palavra gera três vetores:
-
 - Query (Q)
-
 - Key (K)
-
 - Value (V)
 
-  
-
 O processo:
-
 1. Comparar Query de uma palavra com os Keys das outras
-
 2. Calcular pesos de atenção (similaridade)
-
 3. Combinar valores (V) com base nesses pesos
-
 4. Gerar nova representação para cada palavra
+
+Exemplo:
+"O"        → olha pouco para outras
+"gato"     → dá mais peso para "assustado"
+"telhado"  → pouca relação com "assustado"
+"assustado"→ se conecta fortemente a "gato"
+
+```
 
 ## 7. Encoder vs Decoder
 
