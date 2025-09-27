@@ -1,0 +1,174 @@
+# Transformers
+
+## 1. O que são
+**Transformers** são uma arquitetura de redes neurais criada em 2017 pelo artigo **“Attention Is All You Need”**.  
+Eles revolucionaram o **Processamento de Linguagem Natural (NLP)** porque conseguem lidar com **dependências de longo alcance** em textos de forma eficiente, usando um mecanismo chamado **Atenção (Attention)**.
+
+---
+
+## 2. O problema que resolveram
+Antes dos Transformers, os modelos mais usados eram:
+- **RNNs (Redes Neurais Recorrentes)** e **LSTMs** → processavam o texto em sequência, palavra por palavra.  
+  - Problema: lentidão no treino e dificuldade em capturar **relações distantes** (ex.: conectar o início e o fim de um parágrafo).
+- **CNNs** → boas para padrões locais, mas pouco eficientes em capturar contexto global.
+
+➡️ O Transformer trouxe a solução: **atenção direta entre qualquer posição do texto** sem precisar passar por cada passo sequencialmente.
+
+---
+
+## 3. O coração dos Transformers: Self-Attention
+- **Self-Attention** permite que cada palavra “olhe” para todas as outras no mesmo texto, atribuindo **pesos** de importância.  
+- Exemplo: na frase *“O gato subiu no telhado porque estava assustado”*, o modelo precisa entender que o **“estava assustado”** se refere ao **“gato”** e não ao “telhado”.  
+  - O mecanismo de atenção ajuda a capturar essa relação.
+
+---
+
+## 4. Estrutura básica
+Um Transformer é feito de **blocos repetidos**. Os principais componentes são:
+
+1. **Camada de Embeddings**  
+   - Converte tokens (IDs) em vetores (números).
+
+2. **Positional Encoding**  
+   - Como o Transformer não lê em ordem sequencial como RNNs, é preciso adicionar **informação de posição** para que ele saiba a ordem das palavras.
+
+3. **Camadas de Self-Attention**  
+   - Cada palavra se conecta a todas as outras, com pesos aprendidos.
+
+4. **Feed Forward Network**  
+   - Rede totalmente conectada que processa os vetores de atenção.
+
+5. **Camadas de Normalização e Residual**  
+   - Melhoram estabilidade e evitam perda de informação.
+
+6. **Softmax + Saída**  
+   - Gera probabilidades para prever o próximo token ou classificação.
+
+---
+
+## 5. Arquitetura Simplificada (diagrama ASCII)
+
+```text
+          Entrada
+             │
+        [ Embeddings ]
+             │
+     +-----------------+
+     |     Encoder     |
+     | (Self-Attention |
+     | + Feed Forward) |
+     +-----------------+
+             │
+       Representações
+             │
+     +-----------------+
+     |     Decoder     |
+     | (Masked Self-   |
+     | Attention +     |
+     | Cross-Attention |
+     +-----------------+
+             │
+          Saída
+
+### Self-Attention (simplificado)
+
+  
+
+Entrada: "O gato subiu no telhado porque estava assustado"
+
+  
+
+Cada palavra gera três vetores:
+
+- Query (Q)
+
+- Key (K)
+
+- Value (V)
+
+  
+
+O processo:
+
+1. Comparar Query de uma palavra com os Keys das outras
+
+2. Calcular pesos de atenção (similaridade)
+
+3. Combinar valores (V) com base nesses pesos
+
+4. Gerar nova representação para cada palavra
+
+## 7. Encoder vs Decoder
+
+-   **Encoder** → foca em **entender** o texto de entrada
+    
+-   **Decoder** → foca em **gerar** a saída, olhando para:
+    
+    -   o que já foi gerado
+        
+    -   e para o que o encoder entendeu
+        
+
+----------
+
+## 8. Tipos de Modelos
+
+-   **Só Encoder** → ex.: **BERT** (classificação, análise de sentimentos, QA).
+    
+-   **Só Decoder** → ex.: **GPT** (geração de texto).
+    
+-   **Encoder-Decoder** → ex.: **T5** e **BART** (tradução, resumo, geração condicional).
+    
+
+----------
+
+## 9. Por que são tão poderosos?
+
+-   **Paralelização**: processam tokens em paralelo (diferente das RNNs).
+    
+-   **Contexto longo**: conseguem capturar dependências entre palavras distantes.
+    
+-   **Escalabilidade**: funcionam muito bem quando aumentamos **dados + parâmetros + poder computacional** → daí surgem os **LLMs (Large Language Models)** como GPT, LLaMA, Falcon, etc.
+    
+
+----------
+
+## 10. Aplicações
+
+-   Tradução automática
+    
+-   Chatbots (ex.: ChatGPT)
+    
+-   Resumo de textos
+    
+-   Análise de sentimentos
+    
+-   Geração de código
+    
+-   Visão computacional (ex.: Vision Transformers, ou ViT)
+    
+-   Multimodal (texto + imagem, como CLIP e DALL·E)
+    
+
+----------
+
+## 11. Resumindo com uma metáfora
+
+-   Pense no **Encoder** como um **leitor atento**, que entende cada detalhe do texto.
+    
+-   O **Decoder** é um **contador de histórias**, que usa esse entendimento para gerar uma saída coerente.
+    
+-   O ingrediente mágico é a **Atenção**, que permite conectar palavras distantes de forma inteligente.
+    
+
+----------
+
+## 12. Em resumo
+
+-   Transformer = arquitetura baseada em **atenção**, não em recorrência.
+    
+-   Resolveu o problema de contexto longo e treinamento lento das redes antigas.
+    
+-   É a base de praticamente **todos os modelos de IA modernos** em NLP e outras áreas.
+    
+-   Encoder, Decoder ou ambos → definem os tipos de aplicações.
